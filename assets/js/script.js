@@ -1,7 +1,3 @@
-// PPT: Agregar ejemplo listas y eventos
-// Recordar funciones aplicadas a este trabajo
-// Crear txt con los textos
-
 // Declaración de preguntas
 var preguntas = [
     "¿Con qué frecuencia realizas deporte?<br>Considera como deporte cualquier actividad que acelere tu ritmo cardiaco, como caminar rápido, andar en bicicleta, bailar o, por supuesto, practicar un deporte.",
@@ -103,7 +99,7 @@ function actualizarPuntaje(opcion) {
     puntaje += puntajePorOpcion[i][indice];
 
     
-    if (i < preguntas.length - 1) {
+    if (i < preguntas.length) {
         siguientePregunta();
     } else {
         mostrarResultado();

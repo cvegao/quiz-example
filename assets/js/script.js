@@ -96,10 +96,9 @@ function mostrarResultado() {
 
 function actualizarPuntaje(opcion) {
     var indice = opcion - 1;
-    puntaje += puntajePorOpcion[i][indice];
-
     
     if (i < preguntas.length) {
+        puntaje += puntajePorOpcion[i][indice];
         siguientePregunta();
     } else {
         mostrarResultado();
